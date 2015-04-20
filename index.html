@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML 5</title>
+        <meta charset="utf-8" />        
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="img/logo_html5_small.png" rel="icon" type="image/png" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" />
+        <script src="js/jquery-1.9.1.min.js"></script>
+    </head>
+    <body>       
+        <header>
+            <figure>
+                <a><img src="img/logo_html5_bigger.png" alt="HTML5 Powered" title="HTML5 Powered" /></a>
+            </figure>
+            <h1 style="display: none">Início</h1>
+            <h1>Hyper Text Markup Language</h1>
+            <nav>
+                <a>Iniciar apresentação</a>
+            </nav>
+        </header>
+        <!-- Menu -->
+        <nav>
+            <ul>
+                <!--Menus-->
+            </ul>
+        </nav>
+        <!-- Conteúdo -->   
+        <section>    
+            <article>        
+                <header> 
+                    <h1> What is?</h1>        
+                </header>      
+                <section>
+                    <video class="playr_video" preload="auto" poster="img/what_is_html5_poster.jpg" controls>
+                        <source src="videos/html5.mp4" type="video/mp4" /> 
+                        <source src="videos/html5.webm" type="video/webm" /> 
+                        <track kind="subtitles" label="Português - Brasil" srclang="pt-br" src="videos/html5.vtt" default /> 
+                        O vídeo não é suportado pelo seu navegador.         
+                    </video>        
+                </section>
+                <footer>        
+                </footer>    
+            </article>    
+        </section>
+        <section>    
+            <article>
+                <header>
+                    <h1> Definição</h1>
+                </header>
+                <section id="timeLine">
+                    <p>
+                        HTML é a sigla para <strong>H</strong>yper<strong>t</strong>ext <strong>M</strong>arkup 
+                        <strong>L</strong>anguage, em português Linguagem de Marcação de Hipertexto.
+                        É utilizada para criar páginas para Web através de marcações no conteúdo 
+                        do arquivo chamadas de Tags.
+                    </p>
+                    <p>
+                        O HTML5 é uma nova versão do HTML 4.01, que foi concebida para 
+                        que programadores possam gerar códigos separando
+                        <strong>Estrutura (HTML)</strong> de <strong>Layout (CSS)</strong>.
+                        Atributos e Tags de layout não fazem mais parte do padrão do HTML.                
+                    </p>
+                    <p>
+                        Agora o código passa a ter um significado semântico com o HTML5, 
+                        que facilita a leitura, padronização e organização. Com a nova estrutura
+                        disponível no HTML5 as ferramentas de busca conseguem obter um resultado
+                        mais preciso devido ao conteúdo ser apresentado de forma semântica e a
+                        acessibilidade se torna maior.
+                    </p>
+                    <h2> Linha do Tempo do HTML </h2>
+                    <ol>
+                        <li> O HTML foi criado por Tim Berners-Lee em 1980 baseado no conceito
+                            de hypertexto, inicialmente desenvolvido em  Pascal. 
+                        </li>
+                        <li>
+                            Tim Berners-Lee e o estudante Robert Cailliau implementam a
+                            primeira comunicação bem sucedida entre um cliente HTTP e um servidor através da internet.
+                        </li>
+                        <li>
+                            O HTML surge oficialmente em 1990.
+                        </li>
+                        <li>
+                            Em 1995 o HTML passa a ser regularizado pelo W3C, um consórcio 
+                            formado por instituições comerciais e educacionais, com o 
+                            objetivo de definir padrões para as respectivas áreas 
+                            relacionadas à Web.
+                        </li>
+                        <li>
+                            HTML 2.0 é lançado na primeira conferência organizada pela
+                            W3C em 1995.
+                        </li>
+                        <li>
+                            Dave Ragett propõe o HTML 3.0 que é recusado pela W3C.
+                        </li>
+                        <li>
+                            Em 1996 é lançado o HTML 3.2, que permitia compatibilidade total
+                            com o HTML 2.0.
+                        </li>
+                        <li>
+                            Em dezembro de 1999 é lançado o HTML 4.01 em três especificações:
+                            Strict, Transitional e Frameset.
+                        </li>           
+                        <li>
+                            No início de 2008 o W3C lança a primeira especificação do HTML5.
+                        </li>
+                    </ol>
+                </section>
+                <footer>
+                </footer>
+            </article>
+        </section> 
+        <section>   
+            <article>
+                <header>
+                    <h1> Estrutura</h1>
+                </header>   
+                <section id="figures">
+                    <figure>
+                        <figcaption>HTML 4.01 Transitional</figcaption>
+                        <img title="Estrutura HTML 4.01" alt="Estrutura HTML 4.01" src="img/structure01.png" />
+                    </figure>
+                    <figure>
+                        <figcaption>HTML 5</figcaption>
+                        <img title="Estrutura HTML 5" alt="Estrutura HTML 5" src="img/structure02.png" />
+                    </figure>
+                </section>
+                <footer> 
+                </footer>  
+            </article>   
+        </section> 
+
+        <section>    
+            <article>
+                <header>
+                    <h1> Código</h1>
+                </header>
+                <section>
+                    <h2>HTML 4.01 Transitional</h2>
+                    <script src="https://gist.github.com/anderson-furlan/5659683.js"></script>
+                    <h2>HTML 5</h2>
+                    <script src="https://gist.github.com/anderson-furlan/5659828.js"></script> 
+                </section>
+                <footer>
+                </footer>
+            </article>
+        </section>
+        <section>    
+            <article>
+                <header>
+                    <h1> Novas Tags</h1>
+                </header>
+                <section>
+                    <h2>Novas Tags</h2>
+                    <ol>
+                        <li>&lt;meta charset&gt;</li>
+                        <li>&lt;mark&gt;</li>
+                        <li>&lt;meter&gt;</li>
+                        <li>&lt;progress&gt;</li>
+                        <li>&lt;time&gt;</li>
+                        <li>&lt;wbr&gt;</li>
+                        <li>&lt;figure&gt;</li>
+                        <li>&lt;figcaption&gt;</li>
+                        <li>&lt;canvas&gt;</li>
+                        <li>&lt;audio&gt;</li>
+                        <li>&lt;video&gt;</li>
+                        <li>&lt;track&gt;</li>
+                        <li>&lt;embed&gt;</li>
+                    </ol>
+                    <h2>Novas Tags Estruturais</h2>
+                    <ol>
+                        <li>&lt;header&gt;</li>
+                        <li>&lt;nav&gt;</li>
+                        <li>&lt;section&gt;</li>
+                        <li>&lt;article&gt;</li>
+                        <li>&lt;footer&gt;</li>
+                    </ol>
+                </section>
+                <footer>
+                </footer>
+            </article>
+        </section> 
+        <section>    
+            <article>
+                <header>
+                    <h1> Forms</h1>
+                </header>
+                <section>
+                    <form>
+                        <ul>
+                            <li>
+                                &lt;input type="color"&gt; <input type="color" name="colors" />
+                            </li>
+                            <li>
+                                &lt;input type="date"&gt; <input type="date" name="date" />
+                            </li>
+                            <li>
+                                &lt;input type="time"&gt; <input type="time" name="time" />
+                            </li>
+                            <li>
+                                &lt;input type="week"&gt; <input type="week" name="week" />
+                            </li>
+                            <li>
+                                &lt;input type="email" placeholder="E-mail" required&gt; <input type="email" name="email" placeholder="E-mail" required />
+                            </li>
+                            <li>
+                                &lt;input type="url" placeholder="URL" required&gt; <input type="url" name="url" placeholder="URL" required />
+                            </li>
+                            <li>
+                                &lt;input type="text" placeholder="placa" pattern="[A-Z]{3}[0-9]{4}" required&gt; <input type="text" name="placa" title="Preencha este campo no formato ABC-1234" placeholder="Placa" pattern="[A-Z]{3}[0-9]{4}" required />
+                            </li>
+                        </ul>
+                        <input type="submit" name="submit" />
+                    </form>
+                </section>
+                <footer>
+                </footer>
+            </article>
+        </section> 
+        <aside>
+            <header>
+                <h1> Links</h1>
+            </header>
+            <section>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="http://www.findmebyip.com/litmus"> FindMeByIP</a>
+                        </li>
+                        <li>
+                            <a href="http://www.html5test.com"> HTML5 Test</a>
+                        </li>
+                        <li>
+                            <a href="http://validator.w3.org/"> Validator HTML W3C</a>
+                        </li>
+                        <li>
+                            <a href="http://jigsaw.w3.org/css-validator/"> Validator CSS W3C</a>
+                        </li>
+                        <li>
+                            <a href="http://getfirebug.com/"> Firebug para Mozilla Firefox </a>
+                        </li>
+                        <li>
+                            <a href="http://www.w3schools.com/"> W3Schools </a>
+                        </li>
+                        <li>
+                            <a href="http://www.jeanhelfenstein.com"> Exemplo de aplicação do &lt;canvas&gt;</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <footer>
+            </footer>
+        </aside>
+        <section>    
+            <article>
+                <header>
+                    <h1> Bibliografia </h1>
+                </header> 
+                <section id="bibliography">
+                    <ul>
+                        <li>
+                            FERREIRA, Silvio. <cite>Guia Prático de HTML5</cite>. 
+                            São Paulo: Universo Dos Livros, 2013. 168 p.
+                        </li>
+                        <li>
+                            FREEMAN, Eric; FREEMAN, Elisabeth. <cite>Use a Cabeça - HTML, CSS & XHTML</cite>. 02. ed. São Paulo: Alta Books, 2008. 616 p. (Use a Cabeça).
+                        </li>
+                        <li>
+                            FREEMAN, Eric; ROBSON, Elisabeth. <cite>Head First HTML5 Programming</cite>. Gravenstein Highway North: O’reilly, 2011. 572 p. (Head First).
+                        </li>
+                        <li>
+                            <cite>Track</cite>. Disponível em: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track?redirectlocale=en-US&amp;redirectslug=HTML%2FElement%2Ftrack">&lt;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track?redirectlocale=en-US&AMP;redirectslug=HTML%2FElement%2Ftrack&gt;</a>. Acesso em: 22 de maio de 2013.
+                        </li>
+                        <li>
+                            <cite>A história do HTML</cite>. Disponível em: <a href="http://www.frontendbrasil.com.br/artigos/a-historia-do-html/">&lt;http://www.frontendbrasil.com.br/artigos/a-historia-do-html/&gt;</a>. Acesso em: 25 de maio de 2013.
+                        </li>
+                    </ul>
+                </section>
+                <footer>
+                </footer>
+            </article>
+        </section> 
+        <!-- Rodapé -->
+        <footer>
+            <div class="blockLogo">
+                <img src="img/logo_html5_medium.png" alt="HTML5 Powered" title="HTML5 Powered" />
+            </div>
+            <div class="blockAuthor">
+                <p>Trabalho desenvolvido por Anderson Luís Furlan <br /> Disciplina de <span class="discipline">Java para Web</span> do professor Fabrício Giordani.</p>
+            </div>
+        </footer>     
+        <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="js/javascript.js"></script>
+    </body>
+</html>
