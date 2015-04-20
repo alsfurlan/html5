@@ -1,0 +1,240 @@
+/* 
+    Document   : HTML 5
+    Created on : 10/04/2013, 12:44:11
+    Author     : Anderson Luís Furlan
+    Description:
+        Purpose of the stylesheet follows.
+*/ 
+body, nav, ul, ol, li, header, footer, aside, a, p, h1, h2, h3, img, video, article, figure, figcaption, span {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    background-color: bisque;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+body > nav,
+body > header,
+body > section,
+body > aside {
+    min-width: 350px;
+}
+
+body > nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #E44D26;
+    min-height: 30px;
+}
+body > nav > ul > li { 
+    display: inline-block;
+    list-style: none outside none;
+    margin: 4px 0px;
+    text-align: center;
+}
+body > nav > ul > li > a {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-decoration: none; 
+}
+
+body > header {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+body > header > figure > a > img {
+    margin-top: 70px;
+}
+body > header > h1 {
+    font-size: 50pt;
+}
+body > header > nav {
+    padding: 25px 0px;
+}
+body > header > nav > a {
+    color: #E44D26;
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+body > section {
+    padding-top: 40px;
+}
+body > section > nav {
+    width:10%;    
+    text-align: center;
+}
+body > section > nav.prevSection {
+    float: left;
+}
+body > section > nav.nextSection {
+    float: right;
+}
+body > section > article {
+    text-align: left;    
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;  
+    height: 100%;
+}
+body > section > article > header, 
+body > section > article > footer  {
+    height: 25px;
+    padding: 25px 0;
+}
+body > section > article > header > h1 {
+    font-size: 25pt;
+    line-height: 31px;
+    width: 100%;
+}
+body > section > article > section > video  {
+    width: 100%;
+}
+body > section > article > section > ol {
+    padding: 0px 20px;    
+}
+body > section > article > section > p{
+    padding: 10px 0px;
+}
+body > section > article > section#timeLine > ol > li {
+    padding: 5px 0px;    
+}
+body > section > article > section > figure > figcaption {
+    color: #999999;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    padding: 10px 0px;
+}
+body > section > article > section > figure {
+    display: inline-block;
+    padding: 0px 3px;
+    width: 394px;
+}
+body > section > article > section#figures {
+    text-align: center;
+
+}
+body > section > article > section > h2{
+    color: #999999;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    padding: 25px 0px;
+}
+body > section > article > section > div.gist > div.gist-file{    
+    margin-bottom: 0px;
+}
+body > section > article > section > div.gist > div.gist-file > div.gist-meta {
+    display: none;
+}
+body > section > article > section > div.gist > div.gist-file > div.gist-data {
+    height: 300px;
+}
+body > section > article > section > form > ul {
+    padding-top: 34px;
+}
+body > section > article > section > form > ul > li {
+    list-style: none;
+    padding: 5px;
+}
+
+body > section > article > section#bibliography > ul {
+    padding-top: 34px;
+}
+body > section > article > section#bibliography > ul > li {
+    list-style: none outside none;
+    padding-bottom: 10px;
+}
+body > section > article > section#bibliography > ul > li > cite {
+    font-style: normal;
+    font-weight: bold;
+}
+body > section > article > section#bibliography > ul > li > a {
+    color: #E44D26;
+}
+
+
+body > aside {
+    padding-top: 40px;
+}
+body > aside > header,
+body > aside > section,
+body > aside > footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;  
+}
+body > aside > header {
+    height: 25px;
+    padding: 25px 0;
+}
+body > aside > header > h1 {
+    font-size: 25pt;
+    line-height: 25px;
+    width: 100%;
+}
+body > aside > section > nav > ul {
+    padding: 25px;
+}
+body > aside > section > nav > ul > li {
+    list-style: none outside none;
+    padding: 15px;
+}
+body > aside > section > nav > ul > li > a { 
+    color: #E44D26;
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+body > aside > nav {
+    width:10%;    
+    text-align: center;
+}
+body > aside > nav.nextSection {
+    float: right;
+}
+body > aside > nav.prevSection {
+    float: left;
+}
+
+body > footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    float: left;
+    min-width: 545px;
+}
+body > footer > div.blockLogo {
+    float: left;
+    margin: 10px;   
+}
+body > footer > div.blockAuthor {
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+body > footer > div.blockAuthor > p {
+    padding: 25px 0px;
+}
+body > footer > div.blockAuthor > p > span.discipline {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
+
